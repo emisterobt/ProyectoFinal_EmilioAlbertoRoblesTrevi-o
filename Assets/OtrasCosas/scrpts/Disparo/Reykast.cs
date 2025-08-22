@@ -46,7 +46,7 @@ public class Reykast : MonoBehaviour
                 if (hit.transform.CompareTag("Enemy"))
                 {
                     hit.rigidbody.AddForce(-hit.normal * force);
-                    hit.transform.GetComponent<Vidaenemigo>().DañoEnemigo(dañoAtaque);
+                    hit.transform.GetComponent<Vidas>().DañoEnemigo(dañoAtaque);
                 }
 
                 if (hit.transform.CompareTag("Objeto"))

@@ -62,34 +62,36 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\OtrasCosas\scrpts\TerceraPersona\Espada.cs" />
-    <Compile Include="Assets\OtrasCosas\scrpts\Famaso.cs" />
-    <Compile Include="Assets\ProyectoFInal\Scripts\Escena\Posti.cs" />
     <Compile Include="Assets\OtrasCosas\scrpts\PlayerLook.cs" />
-    <Compile Include="Assets\ProyectoFInal\Scripts\Escena\Jugar.cs" />
-    <Compile Include="Assets\OtrasCosas\scrpts\Enemigo.cs" />
-    <Compile Include="Assets\OtrasCosas\scrpts\GameManager.cs" />
     <Compile Include="Assets\ProyectoFInal\Scripts\Guardado\Guardar.cs" />
+    <Compile Include="Assets\ProyectoFInal\Scripts\Enemigo\Vidas.cs" />
+    <Compile Include="Assets\OtrasCosas\scrpts\EnemigoAntiguo.cs" />
     <Compile Include="Assets\OtrasCosas\scrpts\Disparo\Reykast.cs" />
-    <Compile Include="Assets\ProyectoFInal\Scripts\Enemigo\EnemigoV2.cs" />
     <Compile Include="Assets\ProyectoFInal\Scripts\Personaje\Bala.cs" />
-    <Compile Include="Assets\ProyectoFInal\Scripts\Enemigo\SpawnerEnemigos.cs" />
     <Compile Include="Assets\ProyectoFInal\Scripts\Guardado\CargaInicio.cs" />
-    <Compile Include="Assets\ProyectoFInal\Scripts\Enemigo\GameOver.cs" />
     <Compile Include="Assets\OtrasCosas\scrpts\SceneManager\ManejoEscena.cs" />
     <Compile Include="Assets\OtrasCosas\scrpts\TerceraPersona\Arbol.cs" />
     <Compile Include="Assets\OtrasCosas\scrpts\SistemaDialogos\Conversacion.cs" />
     <Compile Include="Assets\ProyectoFInal\Scripts\Guardado\PerfilJugador.cs" />
+    <Compile Include="Assets\ProyectoFInal\Scripts\Guardado\Reiniciar.cs" />
+    <Compile Include="Assets\ProyectoFInal\Scripts\Sonido\Sonido.cs" />
     <Compile Include="Assets\OtrasCosas\scrpts\PlayerMove.cs" />
     <Compile Include="Assets\OtrasCosas\scrpts\SceneManager\CambioNivel.cs" />
+    <Compile Include="Assets\ProyectoFInal\Scripts\Sonido\AudioManager.cs" />
+    <Compile Include="Assets\ProyectoFInal\Scripts\Escena\FrameRate.cs" />
     <Compile Include="Assets\ProyectoFInal\Scripts\Escena\TextoUI.cs" />
-    <Compile Include="Assets\ProyectoFInal\Scripts\Enemigo\Vidaenemigo.cs" />
-    <Compile Include="Assets\ProyectoFInal\Scripts\Personaje\ThirdPerson.cs" />
+    <Compile Include="Assets\ProyectoFInal\Scripts\Guardado\GameManager.cs" />
+    <Compile Include="Assets\ProyectoFInal\Scripts\Personaje\Jugador.cs" />
+    <Compile Include="Assets\ProyectoFInal\Scripts\Escena\MenuPrincipal.cs" />
     <Compile Include="Assets\OtrasCosas\scrpts\SistemaDialogos\Dialogo.cs" />
+    <Compile Include="Assets\ProyectoFInal\Scripts\Pausa\Pausa.cs" />
     <Compile Include="Assets\OtrasCosas\scrpts\Moneda.cs" />
     <Compile Include="Assets\ProyectoFInal\Scripts\Guardado\SistemaGuardado.cs" />
-    <Compile Include="Assets\OtrasCosas\AudioManager\Sonido.cs" />
-    <Compile Include="Assets\OtrasCosas\AudioManager\AudioManager.cs" />
-    <Compile Include="Assets\ProyectoFInal\Scripts\Personaje\Shoot.cs" />
+    <Compile Include="Assets\ProyectoFInal\Scripts\Escena\PostProcesing.cs" />
+    <Compile Include="Assets\ProyectoFInal\Scripts\Enemigo\Derrota.cs" />
+    <Compile Include="Assets\ProyectoFInal\Scripts\Enemigo\InstanciarEnemigos.cs" />
+    <Compile Include="Assets\ProyectoFInal\Scripts\Personaje\Disparo.cs" />
+    <Compile Include="Assets\ProyectoFInal\Scripts\Enemigo\Enemigo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -23,7 +23,6 @@ public class Moneda : MonoBehaviour
         inside = Physics.CheckSphere(transform.position, radio, mask);
         if (Input.GetKeyDown(KeyCode.E) && cursorIn && inside)
         {
-            GameManager.instance.dinero += 1;
             Destroy(this.gameObject);
             
         }

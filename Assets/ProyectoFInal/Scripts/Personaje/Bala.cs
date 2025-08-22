@@ -2,15 +2,15 @@ using UnityEngine;
 
 public class Bala : MonoBehaviour
 {
-    private bool check;
-    private GameObject colObj;
+    private bool haceDaño;
+    private GameObject enemigo;
 
     private void Update()
     {
-        if (check)
+        if (haceDaño)
         {
-            colObj.gameObject.GetComponent<Vidaenemigo>().DañoEnemigo(1);
-            check = false;
+            enemigo.gameObject.GetComponent<Vidas>().DañoEnemigo(1);
+            haceDaño = false;
         }
     }
     private void OnCollisionEnter(Collision collision)
@@ -19,8 +19,8 @@ public class Bala : MonoBehaviour
         {
             
             AudioManager.instance.Play("Ouch");
-            colObj = collision.gameObject;
-            check = true;
+            enemigo = collision.gameObject;
+            haceDaño = true;
             
         }
     }

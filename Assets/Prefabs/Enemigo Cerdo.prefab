@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 868739125471014601}
   - component: {fileID: 3299547829693786763}
   - component: {fileID: 843121780085006803}
-  - component: {fileID: 4837938458745224952}
   - component: {fileID: 6873052590551764204}
+  - component: {fileID: 3855792280584410332}
   m_Layer: 7
   m_Name: Enemigo Cerdo
   m_TagString: Enemy
@@ -162,19 +162,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4837938458745224952
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4100281456174892446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d4a1a0243c3be148bca2cfb03d7bf4e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vida: 3
 --- !u!114 &6873052590551764204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,15 +171,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 4100281456174892446}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 260a25e3b0841e743b5673c094221d4d, type: 3}
+  m_Script: {fileID: 11500000, guid: ebcf8cb0e02dad744b92e71ec4742fe8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radio: 8.14
+  radio: 6.11
   mask:
     serializedVersion: 2
     m_Bits: 8
   iniPos: {x: 0, y: 0, z: 0}
   coordenada: 0
+--- !u!114 &3855792280584410332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4100281456174892446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abe92e4e238a96847ba70c0f6187a759, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vida: 3
 --- !u!1 &6624552762964055128
 GameObject:
   m_ObjectHideFlags: 0

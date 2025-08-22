@@ -1,0 +1,17 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="CargaInicio">
+			<method name="InicioJuego"/>
+			<method name="InicioJuego"/>
+			<method name="InicioJuego"/>
+		</type>
+		<type fullname="Jugar">
+			<method name="Creditos"/>
+			<method name="Menu"/>
+			<method name="Salir"/>
+		</type>
+		<type fullname="Pausa">
+			<method name="Menu"/>
+		</type>
+	</assembly>
+</linker>
