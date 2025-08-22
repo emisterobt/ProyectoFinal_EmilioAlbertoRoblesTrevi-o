@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3890041812070416429
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 475298168059114252}
+  - component: {fileID: 3568404185140753414}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &475298168059114252
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3890041812070416429}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.78247, y: -1.11996, z: -8.28282}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3568404185140753414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3890041812070416429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b12984220339d6349a7f5e3a5ca7ad95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sonidos:
+  - nombre: Happy
+    clip: {fileID: 8300000, guid: 1222ede261710b8499c4480f90783a0a, type: 3}
+    volume: 0.164
+    loop: 1
+    source: {fileID: 0}
+  - nombre: Candy
+    clip: {fileID: 8300000, guid: 1222ede261710b8499c4480f90783a0a, type: 3}
+    volume: 0.133
+    loop: 1
+    source: {fileID: 0}
+  - nombre: Shoot
+    clip: {fileID: 8300000, guid: 553610272f32a8242a5e82b4e73f4fdd, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - nombre: Jump
+    clip: {fileID: 8300000, guid: db4208c6bc834ae469ec01f3a5580f9f, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - nombre: Ouch
+    clip: {fileID: 8300000, guid: 9330ba97d953cfb4898364feaebcf224, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - nombre: Death
+    clip: {fileID: 8300000, guid: 9589c9a1b3202ca4c9fb3aa0d63fac63, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - nombre: Blabla
+    clip: {fileID: 8300000, guid: f1be70e78f13ee14b9165cc1bef98d4b, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
