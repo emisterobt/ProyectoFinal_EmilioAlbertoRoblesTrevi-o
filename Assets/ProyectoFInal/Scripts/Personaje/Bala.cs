@@ -11,14 +11,13 @@ public class Bala : MonoBehaviour
         {
             enemigo.gameObject.GetComponent<Vidas>().DañoEnemigo(1);
             haceDaño = false;
+            Destroy(this.gameObject);
         }
     }
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            
-            AudioManager.instance.Play("Ouch");
             enemigo = collision.gameObject;
             haceDaño = true;
             

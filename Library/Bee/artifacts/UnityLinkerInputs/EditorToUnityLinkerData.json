@@ -4,20 +4,6 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Arbol",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "AudioManager",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "Bala",
             "moduleName": "",
             "usedInScenes": []
@@ -27,27 +13,6 @@
             "nativeClass": "BuildSettings",
             "fullManagedTypeName": "",
             "moduleName": "Core",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "CambioNivel",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "CargaInicio",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Conversacion",
-            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -63,37 +28,13 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/Creditos.unity",
-                "Assets/ProyectoFInal/Menu Principal.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Enemigo",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "EnemigoV2",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Espada",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Famaso",
+            "fullManagedTypeName": "Freddy",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -103,25 +44,8 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/Creditos.unity",
-                "Assets/ProyectoFInal/Menu Principal.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "GameManager",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "GameOver",
-            "moduleName": "",
-            "usedInScenes": []
         },
         {
             "managedAssemblyName": "",
@@ -131,35 +55,18 @@
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Guardar",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Jugar",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
             "managedAssemblyName": "",
             "nativeClass": "LevelGameManager",
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/Creditos.unity",
-                "Assets/ProyectoFInal/Menu Principal.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Moneda",
+            "fullManagedTypeName": "ManagerGame",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -176,10 +83,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/Creditos.unity",
-                "Assets/ProyectoFInal/Menu Principal.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -195,18 +99,26 @@
             "fullManagedTypeName": "",
             "moduleName": "AI",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/Creditos.unity",
-                "Assets/ProyectoFInal/Menu Principal.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Pausa",
-            "moduleName": "",
-            "usedInScenes": []
+            "managedAssemblyName": "",
+            "nativeClass": "OcclusionCullingData",
+            "fullManagedTypeName": "",
+            "moduleName": "Umbra",
+            "usedInScenes": [
+                "Assets/ProyectoFInal/Programacion III.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "",
+            "nativeClass": "OcclusionCullingSettings",
+            "fullManagedTypeName": "",
+            "moduleName": "Umbra",
+            "usedInScenes": [
+                "Assets/ProyectoFInal/Programacion III.unity"
+            ]
         },
         {
             "managedAssemblyName": "",
@@ -226,20 +138,6 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "PlayerMove",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Posti",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Reiniciar",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -274,14 +172,7 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Shoot",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "SpawnerEnemigos",
+            "fullManagedTypeName": "Spawn",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -296,13 +187,6 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "TextoUI",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "ThirdPerson",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -349,64 +233,6 @@
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Unity.Cinemachine.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Unity.Cinemachine.CinemachineBrain",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.Cinemachine.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Unity.Cinemachine.CinemachineCamera",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.Cinemachine.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Unity.Cinemachine.CinemachineDecollider",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.Cinemachine.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Unity.Cinemachine.CinemachineFreeLookModifier",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.Cinemachine.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Unity.Cinemachine.CinemachineInputAxisController",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.Cinemachine.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Unity.Cinemachine.CinemachineOrbitalFollow",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.Cinemachine.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Unity.Cinemachine.CinemachineRotationComposer",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AnimatorController",
-            "fullManagedTypeName": "UnityEditor.Animations.AnimatorController",
-            "moduleName": "Animation",
-            "usedInScenes": [
-                "Assets/ProyectoFInal/TerceraPersona.unity"
-            ]
-        },
-        {
             "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "AudioManager",
             "fullManagedTypeName": "UnityEditor.AudioManager",
@@ -433,10 +259,7 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/Creditos.unity",
-                "Assets/ProyectoFInal/Menu Principal.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -480,8 +303,7 @@
             "fullManagedTypeName": "UnityEngine.AI.NavMeshAgent",
             "moduleName": "AI",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -490,55 +312,7 @@
             "fullManagedTypeName": "UnityEngine.AI.NavMeshData",
             "moduleName": "AI",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "NavMeshObstacle",
-            "fullManagedTypeName": "UnityEngine.AI.NavMeshObstacle",
-            "moduleName": "AI",
-            "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AnimationClip",
-            "fullManagedTypeName": "UnityEngine.AnimationClip",
-            "moduleName": "Animation",
-            "usedInScenes": [
-                "Assets/ProyectoFInal/TerceraPersona.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Animator",
-            "fullManagedTypeName": "UnityEngine.Animator",
-            "moduleName": "Animation",
-            "usedInScenes": [
-                "Assets/ProyectoFInal/TerceraPersona.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioResource",
-            "fullManagedTypeName": "UnityEngine.Audio.AudioResource",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "SampleClip",
-            "fullManagedTypeName": "UnityEngine.Audio.AudioResource",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -547,20 +321,7 @@
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/Creditos.unity",
-                "Assets/ProyectoFInal/Menu Principal.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioClip",
-            "fullManagedTypeName": "UnityEngine.AudioClip",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -569,19 +330,7 @@
             "fullManagedTypeName": "UnityEngine.AudioListener",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/Creditos.unity",
-                "Assets/ProyectoFInal/Menu Principal.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Avatar",
-            "fullManagedTypeName": "UnityEngine.Avatar",
-            "moduleName": "Animation",
-            "usedInScenes": [
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -590,10 +339,7 @@
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/Creditos.unity",
-                "Assets/ProyectoFInal/Menu Principal.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -602,8 +348,7 @@
             "fullManagedTypeName": "UnityEngine.BoxCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -612,10 +357,7 @@
             "fullManagedTypeName": "UnityEngine.Camera",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/Creditos.unity",
-                "Assets/ProyectoFInal/Menu Principal.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -624,10 +366,7 @@
             "fullManagedTypeName": "UnityEngine.Canvas",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/Creditos.unity",
-                "Assets/ProyectoFInal/Menu Principal.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -636,10 +375,7 @@
             "fullManagedTypeName": "UnityEngine.CanvasRenderer",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/Creditos.unity",
-                "Assets/ProyectoFInal/Menu Principal.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -648,7 +384,7 @@
             "fullManagedTypeName": "UnityEngine.CapsuleCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -657,8 +393,7 @@
             "fullManagedTypeName": "UnityEngine.CharacterController",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -667,8 +402,7 @@
             "fullManagedTypeName": "UnityEngine.Collider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -677,19 +411,7 @@
             "fullManagedTypeName": "UnityEngine.Component",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/Creditos.unity",
-                "Assets/ProyectoFInal/Menu Principal.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "ComputeShader",
-            "fullManagedTypeName": "UnityEngine.ComputeShader",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -698,10 +420,7 @@
             "fullManagedTypeName": "UnityEngine.Cubemap",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/Creditos.unity",
-                "Assets/ProyectoFInal/Menu Principal.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -717,10 +436,7 @@
             "fullManagedTypeName": "UnityEngine.Font",
             "moduleName": "TextRendering",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/Creditos.unity",
-                "Assets/ProyectoFInal/Menu Principal.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -729,10 +445,7 @@
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/Creditos.unity",
-                "Assets/ProyectoFInal/Menu Principal.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -783,19 +496,7 @@
             "fullManagedTypeName": "UnityEngine.Light",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/Creditos.unity",
-                "Assets/ProyectoFInal/Menu Principal.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "LightingSettings",
-            "fullManagedTypeName": "UnityEngine.LightingSettings",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -804,19 +505,7 @@
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/Creditos.unity",
-                "Assets/ProyectoFInal/Menu Principal.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "LightProbes",
-            "fullManagedTypeName": "UnityEngine.LightProbes",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -825,10 +514,7 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/Creditos.unity",
-                "Assets/ProyectoFInal/Menu Principal.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -837,8 +523,7 @@
             "fullManagedTypeName": "UnityEngine.Mesh",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -847,8 +532,7 @@
             "fullManagedTypeName": "UnityEngine.MeshCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -857,8 +541,7 @@
             "fullManagedTypeName": "UnityEngine.MeshFilter",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -867,8 +550,7 @@
             "fullManagedTypeName": "UnityEngine.MeshRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -877,19 +559,7 @@
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/Creditos.unity",
-                "Assets/ProyectoFInal/Menu Principal.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Motion",
-            "fullManagedTypeName": "UnityEngine.Motion",
-            "moduleName": "Animation",
-            "usedInScenes": [
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -898,10 +568,7 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/Creditos.unity",
-                "Assets/ProyectoFInal/Menu Principal.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -910,8 +577,7 @@
             "fullManagedTypeName": "UnityEngine.PhysicsMaterial",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -927,10 +593,7 @@
             "fullManagedTypeName": "UnityEngine.RectTransform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/Creditos.unity",
-                "Assets/ProyectoFInal/Menu Principal.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -939,8 +602,7 @@
             "fullManagedTypeName": "UnityEngine.Renderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -951,120 +613,12 @@
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Unity.Postprocessing.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.Rendering.PostProcessing.AmbientOcclusion",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.Postprocessing.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.Rendering.PostProcessing.AutoExposure",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.Postprocessing.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.Rendering.PostProcessing.Bloom",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.Postprocessing.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.Rendering.PostProcessing.ChromaticAberration",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.Postprocessing.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.Rendering.PostProcessing.ColorGrading",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.Postprocessing.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.Rendering.PostProcessing.DepthOfField",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.Postprocessing.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.Rendering.PostProcessing.Grain",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.Postprocessing.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.Rendering.PostProcessing.LensDistortion",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.Postprocessing.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.Rendering.PostProcessing.MotionBlur",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.Postprocessing.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.Rendering.PostProcessing.PostProcessLayer",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.Postprocessing.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.Rendering.PostProcessing.PostProcessProfile",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.Postprocessing.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.Rendering.PostProcessing.PostProcessResources",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.Postprocessing.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.Rendering.PostProcessing.PostProcessVolume",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.Postprocessing.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.Postprocessing.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.Rendering.PostProcessing.Vignette",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
             "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "RenderSettings",
             "fullManagedTypeName": "UnityEngine.RenderSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/Creditos.unity",
-                "Assets/ProyectoFInal/Menu Principal.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -1073,17 +627,7 @@
             "fullManagedTypeName": "UnityEngine.Rigidbody",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "RuntimeAnimatorController",
-            "fullManagedTypeName": "UnityEngine.RuntimeAnimatorController",
-            "moduleName": "Animation",
-            "usedInScenes": [
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -1092,19 +636,7 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/Creditos.unity",
-                "Assets/ProyectoFInal/Menu Principal.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "SkinnedMeshRenderer",
-            "fullManagedTypeName": "UnityEngine.SkinnedMeshRenderer",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -1113,8 +645,7 @@
             "fullManagedTypeName": "UnityEngine.SphereCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -1122,10 +653,7 @@
             "nativeClass": "Sprite",
             "fullManagedTypeName": "UnityEngine.Sprite",
             "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
-            ]
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
@@ -1133,10 +661,7 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/Creditos.unity",
-                "Assets/ProyectoFInal/Menu Principal.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -1145,10 +670,7 @@
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/Creditos.unity",
-                "Assets/ProyectoFInal/Menu Principal.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -1157,10 +679,7 @@
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/Creditos.unity",
-                "Assets/ProyectoFInal/Menu Principal.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
         },
         {
@@ -1169,18 +688,8 @@
             "fullManagedTypeName": "UnityEngine.Transform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/OtrasCosas/Scenes/SampleScene.unity",
-                "Assets/ProyectoFInal/Creditos.unity",
-                "Assets/ProyectoFInal/Menu Principal.unity",
-                "Assets/ProyectoFInal/TerceraPersona.unity"
+                "Assets/ProyectoFInal/Programacion III.unity"
             ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.UI.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.UI.Button",
-            "moduleName": "",
-            "usedInScenes": []
         },
         {
             "managedAssemblyName": "UnityEngine.UI.dll",
@@ -1197,16 +706,9 @@
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "UnityEngine.UI.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.UI.Image",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Vidaenemigo",
+            "fullManagedTypeName": "Vidas",
             "moduleName": "",
             "usedInScenes": []
         }

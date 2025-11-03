@@ -1,42 +1,19 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - Arbol
-    - AudioManager
     - Bala
-    - CambioNivel
-    - CargaInicio
-    - Conversacion
-    - Enemigo
-    - EnemigoV2
-    - Espada
-    - Famaso
-    - GameManager
-    - GameOver
-    - Guardar
-    - Jugar
-    - Moneda
-    - Pausa
+    - Freddy
+    - ManagerGame
     - PlayerLook
     - PlayerMove
-    - Posti
-    - Reiniciar
     - Reykast
-    - Shoot
-    - SpawnerEnemigos
+    - Spawn
     - TextoUI
-    - ThirdPerson
-    - Vidaenemigo
+    - Vidas
+    Unity.AI.Navigation.Editor.dll:
+    - Unity.AI.Navigation.Editor.NavMeshAssetManager
     Unity.AI.Navigation.dll:
     - Unity.AI.Navigation.NavMeshSurface
-    Unity.Cinemachine.dll:
-    - Unity.Cinemachine.CinemachineBrain
-    - Unity.Cinemachine.CinemachineCamera
-    - Unity.Cinemachine.CinemachineDecollider
-    - Unity.Cinemachine.CinemachineFreeLookModifier
-    - Unity.Cinemachine.CinemachineInputAxisController
-    - Unity.Cinemachine.CinemachineOrbitalFollow
-    - Unity.Cinemachine.CinemachineRotationComposer
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputActionAsset
     - UnityEngine.InputSystem.InputActionReference
@@ -44,22 +21,6 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
     - UnityEngine.InputSystem.UI.InputSystemUIInputModule
-    Unity.Postprocessing.Runtime.dll:
-    - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
-    - UnityEngine.Rendering.PostProcessing.AutoExposure
-    - UnityEngine.Rendering.PostProcessing.Bloom
-    - UnityEngine.Rendering.PostProcessing.ChromaticAberration
-    - UnityEngine.Rendering.PostProcessing.ColorGrading
-    - UnityEngine.Rendering.PostProcessing.DepthOfField
-    - UnityEngine.Rendering.PostProcessing.Grain
-    - UnityEngine.Rendering.PostProcessing.LensDistortion
-    - UnityEngine.Rendering.PostProcessing.MotionBlur
-    - UnityEngine.Rendering.PostProcessing.PostProcessLayer
-    - UnityEngine.Rendering.PostProcessing.PostProcessProfile
-    - UnityEngine.Rendering.PostProcessing.PostProcessResources
-    - UnityEngine.Rendering.PostProcessing.PostProcessVolume
-    - UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections
-    - UnityEngine.Rendering.PostProcessing.Vignette
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.Splines.Editor.dll:
@@ -91,70 +52,15 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
-    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
-    - UnityEngine.UI.Image
   serializedClasses:
-    Assembly-CSharp:
-    - Dialogo
-    - Sonido
-    Unity.Cinemachine:
-    - Unity.Cinemachine.CameraTarget
-    - Unity.Cinemachine.Cinemachine3OrbitRig/Orbit
-    - Unity.Cinemachine.Cinemachine3OrbitRig/Settings
-    - Unity.Cinemachine.CinemachineBlendDefinition
-    - Unity.Cinemachine.CinemachineBrain/LensModeOverrideSettings
-    - Unity.Cinemachine.CinemachineDecollider/DecollisionSettings
-    - Unity.Cinemachine.CinemachineDecollider/DecollisionSettings/FollowTargetSettings
-    - Unity.Cinemachine.CinemachineDecollider/TerrainSettings
-    - Unity.Cinemachine.CinemachineInputAxisController/Reader
-    - Unity.Cinemachine.DefaultInputAxisDriver
-    - Unity.Cinemachine.InputAxis
-    - Unity.Cinemachine.InputAxis/RecenteringSettings
-    - Unity.Cinemachine.InputAxisControllerBase`1/Controller
-    - Unity.Cinemachine.InputAxisControllerManager`1
-    - Unity.Cinemachine.LensSettings
-    - Unity.Cinemachine.LensSettings/PhysicalSettings
-    - Unity.Cinemachine.LookaheadSettings
-    - Unity.Cinemachine.PrioritySettings
-    - Unity.Cinemachine.ScreenComposerSettings
-    - Unity.Cinemachine.ScreenComposerSettings/DeadZoneSettings
-    - Unity.Cinemachine.ScreenComposerSettings/HardLimitSettings
-    - Unity.Cinemachine.TargetTracking.TrackerSettings
     Unity.InputSystem:
     - UnityEngine.InputSystem.InputAction
     - UnityEngine.InputSystem.InputActionMap
     - UnityEngine.InputSystem.InputBinding
     - UnityEngine.InputSystem.InputControlScheme
     - UnityEngine.InputSystem.InputControlScheme/DeviceRequirement
-    Unity.Postprocessing.Runtime:
-    - UnityEngine.Rendering.PostProcessing.BoolParameter
-    - UnityEngine.Rendering.PostProcessing.ColorParameter
-    - UnityEngine.Rendering.PostProcessing.EyeAdaptationParameter
-    - UnityEngine.Rendering.PostProcessing.FastApproximateAntialiasing
-    - UnityEngine.Rendering.PostProcessing.FloatParameter
-    - UnityEngine.Rendering.PostProcessing.Fog
-    - UnityEngine.Rendering.PostProcessing.GradingModeParameter
-    - UnityEngine.Rendering.PostProcessing.HistogramMonitor
-    - UnityEngine.Rendering.PostProcessing.IntParameter
-    - UnityEngine.Rendering.PostProcessing.KernelSizeParameter
-    - UnityEngine.Rendering.PostProcessing.LightMeterMonitor
-    - UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer
-    - UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer/OverlaySettings
-    - UnityEngine.Rendering.PostProcessing.PostProcessResources/ComputeShaders
-    - UnityEngine.Rendering.PostProcessing.PostProcessResources/SMAALuts
-    - UnityEngine.Rendering.PostProcessing.PostProcessResources/Shaders
-    - UnityEngine.Rendering.PostProcessing.Spline
-    - UnityEngine.Rendering.PostProcessing.SplineParameter
-    - UnityEngine.Rendering.PostProcessing.SubpixelMorphologicalAntialiasing
-    - UnityEngine.Rendering.PostProcessing.TemporalAntialiasing
-    - UnityEngine.Rendering.PostProcessing.TextureParameter
-    - UnityEngine.Rendering.PostProcessing.TonemapperParameter
-    - UnityEngine.Rendering.PostProcessing.Vector2Parameter
-    - UnityEngine.Rendering.PostProcessing.Vector4Parameter
-    - UnityEngine.Rendering.PostProcessing.VectorscopeMonitor
-    - UnityEngine.Rendering.PostProcessing.WaveformMonitor
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
     - TMPro.FontAssetCreationSettings
@@ -168,9 +74,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Style
     - TMPro.VertexGradient
     UnityEngine.CoreModule:
-    - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
-    - UnityEngine.Events.PersistentListenerMode
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
@@ -180,36 +84,10 @@ ScriptsOnlyBuild:
     - UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord
     - UnityEngine.TextCore.LowLevel.GlyphValueRecord
     UnityEngine.UI:
-    - UnityEngine.UI.AnimationTriggers
-    - UnityEngine.UI.Button/ButtonClickedEvent
-    - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
-    - UnityEngine.UI.Navigation
-    - UnityEngine.UI.SpriteState
-  methodsToPreserve:
-  - assembly: Assembly-CSharp
-    fullTypeName: CargaInicio
-    methodName: InicioJuego
-  - assembly: Assembly-CSharp
-    fullTypeName: Jugar
-    methodName: Creditos
-  - assembly: Assembly-CSharp
-    fullTypeName: CargaInicio
-    methodName: InicioJuego
-  - assembly: Assembly-CSharp
-    fullTypeName: Jugar
-    methodName: Salir
-  - assembly: Assembly-CSharp
-    fullTypeName: CargaInicio
-    methodName: InicioJuego
-  - assembly: Assembly-CSharp
-    fullTypeName: Jugar
-    methodName: Menu
-  - assembly: Assembly-CSharp
-    fullTypeName: Pausa
-    methodName: Menu
+  methodsToPreserve: []
   sceneClasses:
-    Assets/OtrasCosas/Scenes/SampleScene.unity:
+    Assets/ProyectoFInal/Programacion III.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -222,11 +100,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+    - Class: 29
+      Script: {instanceID: 0}
     - Class: 33
       Script: {instanceID: 0}
     - Class: 43
       Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
@@ -236,8 +118,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -245,53 +125,47 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 10898}
+      Script: {instanceID: 10770}
     - Class: 114
-      Script: {instanceID: 11206}
+      Script: {instanceID: 10918}
     - Class: 114
-      Script: {instanceID: 11262}
+      Script: {instanceID: 11228}
     - Class: 114
-      Script: {instanceID: 11314}
+      Script: {instanceID: 11338}
     - Class: 114
-      Script: {instanceID: 11554}
+      Script: {instanceID: 11578}
     - Class: 114
-      Script: {instanceID: 11710}
+      Script: {instanceID: 11734}
     - Class: 114
-      Script: {instanceID: 12700}
+      Script: {instanceID: 11856}
     - Class: 114
-      Script: {instanceID: 13208}
+      Script: {instanceID: 11888}
     - Class: 114
-      Script: {instanceID: 13316}
+      Script: {instanceID: 13340}
     - Class: 114
-      Script: {instanceID: 13914}
+      Script: {instanceID: 13938}
     - Class: 114
-      Script: {instanceID: 14736}
+      Script: {instanceID: 14450}
     - Class: 114
-      Script: {instanceID: 15102}
+      Script: {instanceID: 14764}
     - Class: 114
-      Script: {instanceID: 15674}
+      Script: {instanceID: 16436}
     - Class: 114
-      Script: {instanceID: 15876}
+      Script: {instanceID: 16602}
     - Class: 114
-      Script: {instanceID: 16280}
+      Script: {instanceID: 16750}
     - Class: 114
-      Script: {instanceID: 16408}
+      Script: {instanceID: 16872}
     - Class: 114
-      Script: {instanceID: 16582}
+      Script: {instanceID: 16898}
     - Class: 114
-      Script: {instanceID: 16722}
+      Script: {instanceID: 17922}
     - Class: 114
-      Script: {instanceID: 16844}
+      Script: {instanceID: 18002}
     - Class: 114
-      Script: {instanceID: 16870}
+      Script: {instanceID: 18694}
     - Class: 114
-      Script: {instanceID: 17970}
-    - Class: 114
-      Script: {instanceID: 18604}
-    - Class: 114
-      Script: {instanceID: 18662}
-    - Class: 114
-      Script: {instanceID: 19004}
+      Script: {instanceID: 91114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -310,10 +184,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
-    - Class: 208
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
     - Class: 223
@@ -322,304 +192,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 238
       Script: {instanceID: 0}
-    Assets/ProyectoFInal/Creditos.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 10898}
-    - Class: 114
-      Script: {instanceID: 11206}
-    - Class: 114
-      Script: {instanceID: 11554}
-    - Class: 114
-      Script: {instanceID: 12456}
-    - Class: 114
-      Script: {instanceID: 12700}
-    - Class: 114
-      Script: {instanceID: 13316}
-    - Class: 114
-      Script: {instanceID: 13886}
-    - Class: 114
-      Script: {instanceID: 16408}
-    - Class: 114
-      Script: {instanceID: 16722}
-    - Class: 114
-      Script: {instanceID: 16870}
-    - Class: 114
-      Script: {instanceID: 17970}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/ProyectoFInal/Menu Principal.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 49
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 10898}
-    - Class: 114
-      Script: {instanceID: 11206}
-    - Class: 114
-      Script: {instanceID: 11554}
-    - Class: 114
-      Script: {instanceID: 11862}
-    - Class: 114
-      Script: {instanceID: 12456}
-    - Class: 114
-      Script: {instanceID: 12700}
-    - Class: 114
-      Script: {instanceID: 13188}
-    - Class: 114
-      Script: {instanceID: 13316}
-    - Class: 114
-      Script: {instanceID: 13886}
-    - Class: 114
-      Script: {instanceID: 15674}
-    - Class: 114
-      Script: {instanceID: 16408}
-    - Class: 114
-      Script: {instanceID: 16574}
-    - Class: 114
-      Script: {instanceID: 16722}
-    - Class: 114
-      Script: {instanceID: 16870}
-    - Class: 114
-      Script: {instanceID: 17890}
-    - Class: 114
-      Script: {instanceID: 17970}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/ProyectoFInal/TerceraPersona.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
-    - Class: 72
-      Script: {instanceID: 0}
-    - Class: 74
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 90
-      Script: {instanceID: 0}
-    - Class: 91
-      Script: {instanceID: 0}
-    - Class: 95
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 10592}
-    - Class: 114
-      Script: {instanceID: 10898}
-    - Class: 114
-      Script: {instanceID: 11060}
-    - Class: 114
-      Script: {instanceID: 11206}
-    - Class: 114
-      Script: {instanceID: 11276}
-    - Class: 114
-      Script: {instanceID: 11554}
-    - Class: 114
-      Script: {instanceID: 11710}
-    - Class: 114
-      Script: {instanceID: 12238}
-    - Class: 114
-      Script: {instanceID: 12380}
-    - Class: 114
-      Script: {instanceID: 12700}
-    - Class: 114
-      Script: {instanceID: 12978}
-    - Class: 114
-      Script: {instanceID: 13016}
-    - Class: 114
-      Script: {instanceID: 13190}
-    - Class: 114
-      Script: {instanceID: 13208}
-    - Class: 114
-      Script: {instanceID: 13316}
-    - Class: 114
-      Script: {instanceID: 13352}
-    - Class: 114
-      Script: {instanceID: 13886}
-    - Class: 114
-      Script: {instanceID: 13914}
-    - Class: 114
-      Script: {instanceID: 14668}
-    - Class: 114
-      Script: {instanceID: 15082}
-    - Class: 114
-      Script: {instanceID: 15554}
-    - Class: 114
-      Script: {instanceID: 15656}
-    - Class: 114
-      Script: {instanceID: 15674}
-    - Class: 114
-      Script: {instanceID: 16408}
-    - Class: 114
-      Script: {instanceID: 16582}
-    - Class: 114
-      Script: {instanceID: 16722}
-    - Class: 114
-      Script: {instanceID: 16844}
-    - Class: 114
-      Script: {instanceID: 16870}
-    - Class: 114
-      Script: {instanceID: 17246}
-    - Class: 114
-      Script: {instanceID: 17330}
-    - Class: 114
-      Script: {instanceID: 17336}
-    - Class: 114
-      Script: {instanceID: 17366}
-    - Class: 114
-      Script: {instanceID: 17444}
-    - Class: 114
-      Script: {instanceID: 17632}
-    - Class: 114
-      Script: {instanceID: 17774}
-    - Class: 114
-      Script: {instanceID: 17970}
-    - Class: 114
-      Script: {instanceID: 18028}
-    - Class: 114
-      Script: {instanceID: 18188}
-    - Class: 114
-      Script: {instanceID: 18374}
-    - Class: 114
-      Script: {instanceID: 18604}
-    - Class: 114
-      Script: {instanceID: 18802}
-    - Class: 114
-      Script: {instanceID: 18946}
-    - Class: 114
-      Script: {instanceID: 19004}
-    - Class: 114
-      Script: {instanceID: 19076}
-    - Class: 114
-      Script: {instanceID: 19402}
-    - Class: 114
-      Script: {instanceID: 85496}
-    - Class: 114
-      Script: {instanceID: 154428}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 134
-      Script: {instanceID: 0}
-    - Class: 135
-      Script: {instanceID: 0}
-    - Class: 137
-      Script: {instanceID: 0}
-    - Class: 143
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 195
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    - Class: 238
-      Script: {instanceID: 0}
-    - Class: 258
-      Script: {instanceID: 0}
-    - Class: 850595691
+    - Class: 363
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: b2a4d0e350438a77e3641c1f3c2a79f2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WeatherHandler
   - hash:
       serializedVersion: 2
       Hash: 43da40deb245b47b1a669efa1b942acd
@@ -644,6 +225,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ff8c9abae71ef0462ae22804e3875296
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Freddy
   - hash:
       serializedVersion: 2
       Hash: 215d2dc6ec6ea06728398ea39a103cb3
@@ -724,10 +311,16 @@ ScriptsOnlyBuild:
     className: InputDebuggerWindow
   - hash:
       serializedVersion: 2
-      Hash: 187b7de58f302598102a8b9690b93ce5
+      Hash: 9bf80a1a7928172c8711d336d6b4096d
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: Shoot
+    className: Disparo
+  - hash:
+      serializedVersion: 2
+      Hash: 80ab7ea7fc096d96539a8991c91c2677
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Reiniciar
   - hash:
       serializedVersion: 2
       Hash: 68589f954d791c9cedae48d270204814
@@ -748,7 +341,7 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
-      Hash: dad8a98ed2bc3fecc21b710099169fad
+      Hash: 288761cc605ba88581fe14cbae3babf6
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Reykast
@@ -842,6 +435,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 006c56016ca5d9a3cd203cd95aea7f41
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Spawn
   - hash:
       serializedVersion: 2
       Hash: 682dfc653b22feea53b38adb3bc66414
@@ -1018,10 +617,10 @@ ScriptsOnlyBuild:
     className: Vignette
   - hash:
       serializedVersion: 2
-      Hash: 7829d6ef031f9b4cd445340218fa7c74
+      Hash: 798264f6128633d2934167ad6e37e234
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: Jugar
+    className: MenuPrincipal
   - hash:
       serializedVersion: 2
       Hash: ee34255e3e86289bde9bad5e07b84cbc
@@ -1142,12 +741,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem
     className: PlayerInputManager
-  - hash:
-      serializedVersion: 2
-      Hash: 2989bbcfda0f24f747814b74023acd37
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Vidaenemigo
   - hash:
       serializedVersion: 2
       Hash: 0f19765290d81f9e93eff7828a091d40
@@ -1300,7 +893,7 @@ ScriptsOnlyBuild:
     className: Button
   - hash:
       serializedVersion: 2
-      Hash: acc33b9482e0b189e5a913c8d37cbbdf
+      Hash: a488b68e46f8951c4508e20aa7729532
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: TextoUI
@@ -1390,6 +983,12 @@ ScriptsOnlyBuild:
     className: TMP_SelectionCaret
   - hash:
       serializedVersion: 2
+      Hash: 57464c6b8f75b0040a5ef9c692873689
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Vidas
+  - hash:
+      serializedVersion: 2
       Hash: 90aafdbe0a9cd12a778a155bb12982ee
     assemblyName: Unity.Cinemachine
     namespaceName: Unity.Cinemachine
@@ -1414,10 +1013,10 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: a8679328d72c32ce080dd937c54cfe2c
+      Hash: 53222b2a62fdcef440f975d5b3916db5
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: ThirdPerson
+    className: Jugador
   - hash:
       serializedVersion: 2
       Hash: 423a204f105739da55558e8e0d136a67
@@ -1510,10 +1109,10 @@ ScriptsOnlyBuild:
     className: UnityOnMouseDownMessageListener
   - hash:
       serializedVersion: 2
-      Hash: b3bd4dfed40fa69f0ff52d333a52cb3d
+      Hash: 95b0fcd51f5d85398997bb40b9b63b28
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: SpawnerEnemigos
+    className: InstanciarEnemigos
   - hash:
       serializedVersion: 2
       Hash: 0dd9eaba37d30c8f3073f4b8dc768061
@@ -1636,7 +1235,7 @@ ScriptsOnlyBuild:
     className: CinemachineRotationComposer
   - hash:
       serializedVersion: 2
-      Hash: f4c0d5efeedbbe70151bff06d6c83d51
+      Hash: 42f6762edff27c385ccce55a830862d9
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GameManager
@@ -1660,10 +1259,10 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
-      Hash: 5819598d73c9aa8c6421d1f7a3cc6855
+      Hash: 3da9918e1e47fe38371182565d090e44
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: Famaso
+    className: FrameRate
   - hash:
       serializedVersion: 2
       Hash: d5cd7f207e91ca8336c65a577a6fb2a0
@@ -1780,10 +1379,10 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionEnter2DMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 5e26a793e2bf62d5cea68de8880f2417
+      Hash: 374dd19e184a23fcd676931e5d84e3c0
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: Enemigo
+    className: EnemigoAntiguo
   - hash:
       serializedVersion: 2
       Hash: bf0842d88681628b29beb00b5e2ab785
@@ -1834,12 +1433,6 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
-      Hash: af2be7449de46f5954b9ef20c22e4729
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: EnemigoV2
-  - hash:
-      serializedVersion: 2
       Hash: e18dfd2b913b09fbbb2405165a2e6a44
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -1850,6 +1443,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c9ca52ea4fb685f67cdd149b106d8a3a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Enemigo
   - hash:
       serializedVersion: 2
       Hash: 715f7928b39881049ce8c46350cb8681
@@ -1996,16 +1595,22 @@ ScriptsOnlyBuild:
     className: CinemachineDollyCart
   - hash:
       serializedVersion: 2
-      Hash: 366751bcc20da98d6168a82d5a9c41be
+      Hash: efc858c1276c8cb3fe2d956b2a42b020
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: Posti
+    className: PostProcesing
   - hash:
       serializedVersion: 2
       Hash: 4fcf0bb4aff1d14a1dfcdedc4b07bd05
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 7b6590fd5f86fa6eb2157c639bed8433
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Pausa
   - hash:
       serializedVersion: 2
       Hash: 424074d3010ce4ec3d155fbdba52a3b3
@@ -2170,10 +1775,10 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
-      Hash: bc9e5df4730dc2e3e91e4b81a4e8e6b1
+      Hash: f89ce7c82e9dd8858d64d24951ab25f6
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: GameOver
+    className: Derrota
   - hash:
       serializedVersion: 2
       Hash: 4fbe2e06617fa6529d4e1f7001a9b42e
@@ -2332,21 +1937,11 @@ ScriptsOnlyBuild:
     className: SplineExtrude
   - hash:
       serializedVersion: 2
-      Hash: 80ab7ea7fc096d96539a8991c91c2677
+      Hash: ac152ae3374efd92f96939127d0268eb
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: Reiniciar
-  - hash:
-      serializedVersion: 2
-      Hash: 7b6590fd5f86fa6eb2157c639bed8433
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Pausa
+    className: ManagerGame
   platform: 19
   scenePathNames:
-  - Assets/ProyectoFInal/Menu Principal.unity
-  - Assets/OtrasCosas/Scenes/SampleScene.unity
-  - Assets/ProyectoFInal/Creditos.unity
-  - Assets/ProyectoFInal/TerceraPersona.unity
-  playerPath: C:/Users/XP/Desktop/Emilio Materias IV/Game Engine II/ProyectoFInal/Gein
-    enyin.exe
+  - Assets/ProyectoFInal/Programacion III.unity
+  playerPath: "C:/Users/XP/Desktop/Emilio Materias V/Programacion III/emilio_robles_trevi\xF1o/emilio_robles_trevi\xF1o.exe"

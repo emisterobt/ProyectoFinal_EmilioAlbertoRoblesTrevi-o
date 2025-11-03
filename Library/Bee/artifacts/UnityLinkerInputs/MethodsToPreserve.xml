@@ -5,7 +5,7 @@
 			<method name="InicioJuego"/>
 			<method name="InicioJuego"/>
 		</type>
-		<type fullname="Jugar">
+		<type fullname="MenuPrincipal">
 			<method name="Creditos"/>
 			<method name="Menu"/>
 			<method name="Salir"/>
