@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638894134628969877
-    m_Hash: 2993753287
+      ticks: 638978821600843937
+    m_Hash: 736189080
   m_LockFileStatus:
     m_FilePath: C:/Users/XP/Desktop/Emilio Materias IV/Game Engine II/Gein enyin/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638894134629018105
-    m_Hash: 3453877507
+      ticks: 638978821600891737
+    m_Hash: 2554946911
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -65,10 +65,12 @@ m_ResolvedPackages:
     - 2.0.6
     - 2.0.7
     - 2.0.8
+    - 2.0.9
     compatible:
     - 2.0.7
     - 2.0.8
-    recommended: 2.0.8
+    - 2.0.9
+    recommended: 2.0.9
     deprecated: []
   dependencies:
   - name: com.unity.modules.ai
@@ -136,229 +138,6 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.7
     minimumUnityVersion: 6000.0.0a1
-- packageId: com.unity.cinemachine@3.1.4
-  testable: 0
-  isDirectDependency: 1
-  version: 3.1.4
-  source: 1
-  resolvedPath: C:\Users\XP\Desktop\Emilio Materias IV\Game Engine II\Gein enyin\Library\PackageCache\com.unity.cinemachine@b66fdb7cd1f2
-  assetPath: Packages/com.unity.cinemachine
-  name: com.unity.cinemachine
-  displayName: Cinemachine
-  author:
-    name: 
-    email: 
-    url: 
-  category: cinematography
-  type: 
-  description: "Smart camera tools for passionate creators. \n\nCinemachine 3 is
-    a newer and better version of Cinemachine, but upgrading an existing project
-    from 2.X will likely require some effort.  If you're considering upgrading an
-    older project, please see our upgrade guide in the user manual."
-  errors: []
-  versions:
-    all:
-    - 2.1.11-beta.1
-    - 2.1.12
-    - 2.1.13
-    - 2.2.0
-    - 2.2.7
-    - 2.2.8
-    - 2.2.9
-    - 2.2.10-preview.3
-    - 2.2.10-preview.4
-    - 2.3.1
-    - 2.3.3
-    - 2.3.4
-    - 2.3.5-preview.3
-    - 2.4.0-preview.3
-    - 2.4.0-preview.4
-    - 2.4.0-preview.6
-    - 2.4.0-preview.7
-    - 2.4.0-preview.8
-    - 2.4.0-preview.9
-    - 2.4.0-preview.10
-    - 2.4.0
-    - 2.5.0
-    - 2.6.0-preview.2
-    - 2.6.0-preview.3
-    - 2.6.0-preview.5
-    - 2.6.0-preview.8
-    - 2.6.0
-    - 2.6.1-preview.6
-    - 2.6.1
-    - 2.6.2-preview.1
-    - 2.6.2
-    - 2.6.3-preview.2
-    - 2.6.3
-    - 2.6.4
-    - 2.6.5
-    - 2.6.9
-    - 2.6.10
-    - 2.6.11
-    - 2.6.14
-    - 2.6.15
-    - 2.6.17
-    - 2.7.1
-    - 2.7.2
-    - 2.7.3
-    - 2.7.4
-    - 2.7.5
-    - 2.7.8
-    - 2.7.9
-    - 2.8.0-exp.1
-    - 2.8.0-exp.2
-    - 2.8.0-pre.1
-    - 2.8.0
-    - 2.8.1
-    - 2.8.2
-    - 2.8.3
-    - 2.8.4
-    - 2.8.6
-    - 2.8.9
-    - 2.9.0-pre.1
-    - 2.9.0-pre.6
-    - 2.9.1
-    - 2.9.2
-    - 2.9.4
-    - 2.9.5
-    - 2.9.7
-    - 2.10.0
-    - 2.10.1
-    - 2.10.2
-    - 2.10.3
-    - 2.10.4
-    - 3.0.0-pre.3
-    - 3.0.0-pre.4
-    - 3.0.0-pre.5
-    - 3.0.0-pre.6
-    - 3.0.0-pre.7
-    - 3.0.0-pre.8
-    - 3.0.0-pre.9
-    - 3.0.1
-    - 3.1.0
-    - 3.1.1
-    - 3.1.2
-    - 3.1.3
-    - 3.1.4
-    compatible:
-    - 2.10.3
-    - 2.10.4
-    - 3.0.0-pre.3
-    - 3.0.0-pre.4
-    - 3.0.0-pre.5
-    - 3.0.0-pre.6
-    - 3.0.0-pre.7
-    - 3.0.0-pre.8
-    - 3.0.0-pre.9
-    - 3.0.1
-    - 3.1.0
-    - 3.1.1
-    - 3.1.2
-    - 3.1.3
-    - 3.1.4
-    recommended: 3.1.4
-    deprecated: []
-  dependencies:
-  - name: com.unity.splines
-    version: 2.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.splines
-    version: 2.8.0
-  - name: com.unity.mathematics
-    version: 1.3.2
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.settings-manager
-    version: 2.1.0
-  keywords:
-  - camera
-  - follow
-  - rig
-  - fps
-  - cinematography
-  - aim
-  - orbit
-  - cutscene
-  - cinematic
-  - collision
-  - freelook
-  - cinemachine
-  - compose
-  - composition
-  - dolly
-  - track
-  - clearshot
-  - noise
-  - framing
-  - handheld
-  - lens
-  - impulse
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638851617780470000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.cinemachine@3.1/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/com.unity.cinemachine.git
-    revision: b5d928f5923583585b11d5c17531ff59c8c971c9
-    path: 
-  unityLifecycle:
-    version: 2.10.3
-    nextVersion: 
-    recommendedVersion: 3.1.0
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"### Bugfixes\n- Deoccluder did not always properly
-    reset its state.\n- Deoccluder and Decollider were introducing spurious damping
-    when the FreeLook orbit size changed.\n- Mac only: Some dropdowns and popups
-    in Cinemachine inspectors did not work consistently.\n- Regression fix: Confiner2D
-    was not always confining when a camera was newly activated.\n- RotationComposer
-    and PositionComposer no longer damp in response to composition changes from the
-    FreeLookModifier.\n- Fixed sample asset selection at import depending on current
-    render pipeline and input configuration.  You need to re-import the samples to
-    fix any existing issues.\n- Confiner2D was behaving inconsistently for large
-    sized bounding boxes due to precision issues.\n- StateDrivenCamera inspector
-    was not populating the states in the instruction list correctly.\n- Fixed a number
-    of issues causing ForceCameraPosition to not behave as expected.\n- Maximizing
-    an inspector which contained custom blends would generate console errors and
-    cause the inspector to be unresponsive.\n\n### Changed\n- Cinemachine Shot Editor
-    for Timeline no longer displays improper UX to create cameras when editing a
-    prefab.\n- The game-view composer guides dynamically reflect the current composition
-    when a FreeLookModifier is changing it.\n- When a FreeLookModifier is enabled
-    for composition, the game-view composer guides are no longer draggable.\n \n###
-    Added\n- Added Easing setting to FreeLookModifier, to smooth the transition between
-    top and bottom FreeLook hemispheres.\n- Added an overload for `CinemachineBrain.ManualUpdate`
-    which takes a custom frame count and deltaTime, allowing more customized control
-    over the game loop.\n- Added `CINEMACHINE_TRANSPARENT_POST_PROCESSING_BLENDS`
-    scripting define to tune the PostProcessing blend behaviour.\n- Added Signal
-    Combination Mode to Impulse Listener, to allow combining multiple impulse signals
-    in different ways."}'
-  assetStore:
-    productId: 
-  fingerprint: b66fdb7cd1f2f796860f420c11c2033b2262c986
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 2.10.3
-    minimumUnityVersion: 2022.3.0a1
 - packageId: com.unity.collab-proxy@2.7.1
   testable: 0
   isDirectDependency: 1
@@ -459,10 +238,20 @@ m_ResolvedPackages:
     - 2.7.1
     - 2.8.1
     - 2.8.2
+    - 2.9.1
+    - 2.9.2
+    - 2.9.3
+    - 2.10.0
+    - 2.10.1
     compatible:
     - 2.7.1
     - 2.8.1
     - 2.8.2
+    - 2.9.1
+    - 2.9.2
+    - 2.9.3
+    - 2.10.0
+    - 2.10.1
     recommended: 2.7.1
     deprecated: []
   dependencies: []
@@ -723,10 +512,14 @@ m_ResolvedPackages:
     - 1.13.1
     - 1.14.0
     - 1.14.1
+    - 1.14.2
+    - 1.15.0
     compatible:
     - 1.14.0
     - 1.14.1
-    recommended: 1.14.1
+    - 1.14.2
+    - 1.15.0
+    recommended: 1.14.2
     deprecated: []
   dependencies:
   - name: com.unity.modules.uielements
@@ -948,9 +741,11 @@ m_ResolvedPackages:
     - 3.3.0
     - 3.4.0
     - 3.5.0
+    - 3.5.1
     compatible:
     - 3.4.0
     - 3.5.0
+    - 3.5.1
     recommended: 3.4.0
     deprecated: []
   dependencies:
@@ -1112,10 +907,12 @@ m_ResolvedPackages:
     - 1.8.6
     - 1.8.7
     - 1.8.8
+    - 1.8.9
     compatible:
     - 1.8.7
     - 1.8.8
-    recommended: 1.8.8
+    - 1.8.9
+    recommended: 1.8.9
     deprecated: []
   dependencies:
   - name: com.unity.modules.audio
@@ -1285,138 +1082,6 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
     minimumUnityVersion: 2019.2.0a1
-- packageId: com.unity.visualscripting@1.9.6
-  testable: 0
-  isDirectDependency: 1
-  version: 1.9.6
-  source: 1
-  resolvedPath: C:\Users\XP\Desktop\Emilio Materias IV\Game Engine II\Gein enyin\Library\PackageCache\com.unity.visualscripting@7dcdc439b230
-  assetPath: Packages/com.unity.visualscripting
-  name: com.unity.visualscripting
-  displayName: Visual Scripting
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: tool
-  description: 'Visual scripting is a workflow that uses visual, node-based graphs
-    to design behaviors rather than write lines of C# script.
-
-
-    Enabling artists,
-    designers and programmers alike, visual scripting can be used to design final
-    logic, quickly create prototypes, iterate on gameplay and create custom nodes
-    to help streamline collaboration.
-
-
-    Visual scripting is compatible with third-party
-    APIs, including most packages, assets and custom libraries.'
-  errors: []
-  versions:
-    all:
-    - 1.5.0
-    - 1.5.1-pre.3
-    - 1.5.1-pre.5
-    - 1.5.1
-    - 1.5.2
-    - 1.6.0-pre.3
-    - 1.6.0
-    - 1.6.1
-    - 1.7.1
-    - 1.7.2
-    - 1.7.3
-    - 1.7.5
-    - 1.7.6
-    - 1.7.7
-    - 1.7.8
-    - 1.8.0-pre.1
-    - 1.8.0
-    - 1.9.0
-    - 1.9.1
-    - 1.9.2
-    - 1.9.4
-    - 1.9.5
-    - 1.9.6
-    - 1.9.7
-    - 1.9.8
-    compatible:
-    - 1.9.6
-    - 1.9.7
-    - 1.9.8
-    recommended: 1.9.8
-    deprecated:
-    - 1.8.0-pre.1
-  dependencies:
-  - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.ugui
-    version: 2.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638769546699650000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: d24c56a75889cb6fe0046a9472368815d56d6bc7
-    path: 
-  unityLifecycle:
-    version: 1.9.6
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Fixed the output path for Property Providers
-    generated from User Editor code. [UVSB-2550](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2550)\n-
-    Fixed a minor spelling issue in the Project Settings section [UVSB-2523](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2523)\n-
-    Fixed an unexpected MissingComponentException thrown when using GetOrAddComponent
-    [UVSB-2575](https://jira.unity3d.com/browse/UVSB-2575)\n- Fixed scenes not reopening
-    after a Build when more than one Scene was opened and Visual Scripting with variables
-    is used. [UVSB-2561](https://jira.unity3d.com/browse/UVSB-2561)\n- Fixed values
-    of LocalizedAudioClip type being shown as None after selecting another game object
-    and returning back [UVSB-2528](https://jira.unity3d.com/browse/UVSB-2528)\n-
-    Fixed a compilation issue that happened when a project had another version of
-    NCalc already installed. [UVSB-2583](https://jira.unity3d.com/browse/UVSB-2583)\n-
-    Fixed an ''AudioMixerController'' is inaccessible due to its protection level''
-    error thrown when generating the AotStubs. [UVSB-2577](https://jira.unity3d.com/browse/UVSB-2577)\n-
-    Fixed compilation error when AotStubs references Unity.NetworkManager.__rpc_func_table
-    and Unity.NetworkManager.__rpc_name_table fields [UVSB-2563](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2563)\n\n###
-    Changed\n- Improved the warning message when a library fails to load while scanning
-    for Editor assemblies."}'
-  assetStore:
-    productId: 
-  fingerprint: 7dcdc439b230145cec4202cd6ebad135736e0c14
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.9.6
-    minimumUnityVersion: 2021.3.0a1
 - packageId: com.unity.modules.accessibility@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -3884,9 +3549,11 @@ m_ResolvedPackages:
     - 2.0.21
     - 2.0.22
     - 2.0.23
+    - 2.0.25
     compatible:
     - 2.0.23
-    recommended: 2.0.23
+    - 2.0.25
+    recommended: 2.0.25
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -4011,10 +3678,15 @@ m_ResolvedPackages:
     - 3.0.34
     - 3.0.35
     - 3.0.36
+    - 3.0.37
+    - 3.0.38
     compatible:
     - 3.0.36
-    recommended: 3.0.36
-    deprecated: []
+    - 3.0.37
+    - 3.0.38
+    recommended: 3.0.38
+    deprecated:
+    - 3.0.37
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -4090,9 +3762,11 @@ m_ResolvedPackages:
     - 0.1.0-preview.1
     - 0.1.0-preview.2
     - 1.0.0
+    - 1.0.1
     compatible:
     - 1.0.0
-    recommended: 1.0.0
+    - 1.0.1
+    recommended: 1.0.1
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -4177,9 +3851,11 @@ m_ResolvedPackages:
     - 1.1.1
     - 1.2.2
     - 1.2.3
+    - 1.2.4
     compatible:
     - 1.2.3
-    recommended: 1.2.3
+    - 1.2.4
+    recommended: 1.2.4
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -4416,9 +4092,11 @@ m_ResolvedPackages:
     - 1.2.4
     - 1.2.5
     - 1.2.6
+    - 1.2.7
     compatible:
     - 1.2.6
-    recommended: 1.2.6
+    - 1.2.7
+    recommended: 1.2.7
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -4485,121 +4163,6 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.2.6
     minimumUnityVersion: 2019.3.0a1
-- packageId: com.unity.splines@2.8.0
-  testable: 0
-  isDirectDependency: 0
-  version: 2.8.0
-  source: 1
-  resolvedPath: C:\Users\XP\Desktop\Emilio Materias IV\Game Engine II\Gein enyin\Library\PackageCache\com.unity.splines@30918147f39c
-  assetPath: Packages/com.unity.splines
-  name: com.unity.splines
-  displayName: Splines
-  author:
-    name: 
-    email: 
-    url: 
-  category: Tool
-  type: 
-  description: Work with curves and paths. Use the Splines package to generate objects
-    and behaviors along paths, create trajectories, and draw shapes.
-  errors: []
-  versions:
-    all:
-    - 0.1.0-preview.1
-    - 1.0.0-pre.5
-    - 1.0.0-pre.7
-    - 1.0.0-pre.8
-    - 1.0.0-pre.9
-    - 1.0.0
-    - 1.0.1
-    - 2.0.0-pre.2
-    - 2.0.0-pre.4
-    - 2.0.0
-    - 2.1.0
-    - 2.2.0
-    - 2.2.1
-    - 2.3.0
-    - 2.4.0
-    - 2.5.1
-    - 2.5.2
-    - 2.6.0
-    - 2.6.1
-    - 2.7.1
-    - 2.7.2
-    - 2.8.0
-    - 2.8.1
-    compatible:
-    - 2.8.0
-    - 2.8.1
-    recommended: 2.8.1
-    deprecated: []
-  dependencies:
-  - name: com.unity.mathematics
-    version: 1.2.1
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.settings-manager
-    version: 1.0.3
-  resolvedDependencies:
-  - name: com.unity.mathematics
-    version: 1.3.2
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.settings-manager
-    version: 2.1.0
-  keywords:
-  - spline
-  - curve
-  - path
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638779131899380000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.splines@2.8/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.splines.git
-    revision: 62fda6a9f01314d27d0dfc41f6fc0bbd13e1c300
-    path: 
-  unityLifecycle:
-    version: 2.8.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"### Bug Fixes\n- [SPLB-322] Fixed a bug where `SplineExtrude`
-    wouldn''t update when multiple splines where modified.\n- [SPLB-323] Fixed a
-    bug where splines displayed in the Scene view would not match serialization changes.\n-
-    [SPLB-324] Re-added a dependency to the IMGUI module that was removed along with
-    the UGUI package.\n- [SPLB-332] Fixed a bug where `Element Inspector` fields
-    get pushed and squashed.\n- [SPLB-329] Fixed a bug where `SplineExtrude` could
-    affect the mesh of other `SplineExtrude`.\n- [SPLB-336] Fixed a bug where `SplineExtrude`
-    would break with a range value of 0.\n- [SPLB-333] Fixed a bug where `Create
-    Spline` tool would sometimes throw an exception when the Esc or Enter keys were
-    pressed.\n\n### Added\n- [SPLB-329] Added the ability to target a mesh in the
-    library with a `SplineExtrude` component"}'
-  assetStore:
-    productId: 
-  fingerprint: 30918147f39c617439e1a955017afede0429d1bd
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 2.8.0
-    minimumUnityVersion: 2022.3.0a1
 - packageId: com.unity.settings-manager@2.1.0
   testable: 0
   isDirectDependency: 0
@@ -4629,9 +4192,11 @@ m_ResolvedPackages:
     - 2.0.0
     - 2.0.1
     - 2.1.0
+    - 2.1.1
     compatible:
     - 2.1.0
-    recommended: 2.1.0
+    - 2.1.1
+    recommended: 2.1.1
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -4756,93 +4321,4 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.5
     minimumUnityVersion: 2019.4.0a1
-- packageId: com.unity.mathematics@1.3.2
-  testable: 0
-  isDirectDependency: 0
-  version: 1.3.2
-  source: 1
-  resolvedPath: C:\Users\XP\Desktop\Emilio Materias IV\Game Engine II\Gein enyin\Library\PackageCache\com.unity.mathematics@8017b507cc74
-  assetPath: Packages/com.unity.mathematics
-  name: com.unity.mathematics
-  displayName: Mathematics
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: assets
-  description: Unity's C# SIMD math library providing vector types and math functions
-    with a shader like syntax.
-  errors: []
-  versions:
-    all:
-    - 0.0.12-preview.2
-    - 0.0.12-preview.5
-    - 0.0.12-preview.8
-    - 0.0.12-preview.10
-    - 0.0.12-preview.11
-    - 0.0.12-preview.13
-    - 0.0.12-preview.17
-    - 0.0.12-preview.19
-    - 0.0.12-preview.20
-    - 1.0.0-preview.1
-    - 1.0.1
-    - 1.1.0-preview.1
-    - 1.1.0
-    - 1.2.1
-    - 1.2.4
-    - 1.2.5
-    - 1.2.6
-    - 1.3.1
-    - 1.3.2
-    compatible:
-    - 1.3.2
-    recommended: 1.3.2
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - unity
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638409134840000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.mathematics@1.3/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
-    revision: 1695a8503482a3131be78cc26308a93f82c05b04
-    path: 
-  unityLifecycle:
-    version: 1.3.2
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"### Fixed\n* Fixed `math.hash` crash when using IL2CPP
-    builds on Arm 32 bit devices.\n* Fixed obsolete method usage warnings for `MatrixDrawer.CanCacheInspectorGUI`
-    and `PrimitiveVectorDrawer.CanCacheInspectorGUI` in UNITY_2023_2_OR_NEWER.\n*
-    Updated minimum editor version to 2021.3"}'
-  assetStore:
-    productId: 
-  fingerprint: 8017b507cc74bf0a1dd14b18aa860569f807314d
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.3.2
-    minimumUnityVersion: 2021.3.0a1
 m_BuiltInPackagesHash: 0620e8cf0e2ba74856203b50d0a1e7e0e0b09da0

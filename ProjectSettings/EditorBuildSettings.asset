@@ -26,6 +26,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/ProyectoFInal/Programacion III.unity
     guid: 0c2ecb0803e50b844880c2f3aedf331c
+  - enabled: 1
+    path: Assets/ProgramacionIIII/Escenas/FigureJump.unity
+    guid: a35420d75955a04488ef8606fa127971
+  - enabled: 1
+    path: Assets/ProgramacionIIII/Escenas/CreareAccount.unity
+    guid: 8bcd68baec054be4f8af99329058201a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
   m_UseUCBPForAssetBundles: 0
