@@ -61,51 +61,91 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.1.2f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ProyectoFInal\Scripts\Sonido\AudioManager.cs" />
+    <Compile Include="Assets\Widgets\Source Code\Common\WidgetName.cs" />
+    <Compile Include="Assets\ProyectoFInal\Scripts\Escena\FrameRate.cs" />
+    <Compile Include="Assets\Widgets\Source Code\Common\Actor.cs" />
     <Compile Include="Assets\ProgramacionIIII\Scripts\Enemigos\Derrota.cs" />
     <Compile Include="Assets\OtrasCosas\scrpts\TerceraPersona\Espada.cs" />
+    <Compile Include="Assets\Widgets\Plugins\LeanTween\Framework\LeanTweenExt.cs" />
+    <Compile Include="Assets\Widgets\Example\Scripts\gui\wMainMenu.cs" />
+    <Compile Include="Assets\Widgets\Plugins\LeanTween\Framework\LeanTest.cs" />
+    <Compile Include="Assets\Widgets\Example\Scripts\DestroyMe.cs" />
     <Compile Include="Assets\OtrasCosas\scrpts\PlayerLook.cs" />
+    <Compile Include="Assets\ProgramacionIIII\Scripts\Proyecto Final\Death.cs" />
     <Compile Include="Assets\ProyectoFInal\Scripts\Guardado\Guardar.cs" />
+    <Compile Include="Assets\ProyectoFInal\Scripts\Guardado\GameManager.cs" />
     <Compile Include="Assets\ProgramacionIIII\Scripts\Player\Reykast.cs" />
+    <Compile Include="Assets\Widgets\Example\Scripts\gui\wPopUp.cs" />
+    <Compile Include="Assets\ProgramacionIIII\Scripts\Enemigos\Spawn.cs" />
+    <Compile Include="Assets\Widgets\Plugins\LeanTween\Framework\LTSeq.cs" />
+    <Compile Include="Assets\Widgets\Example\Scripts\LoadMainMenuWidget.cs" />
+    <Compile Include="Assets\Widgets\Plugins\LeanTween\Framework\LeanSmooth.cs" />
+    <Compile Include="Assets\ProyectoFInal\Scripts\Personaje\Jugador.cs" />
     <Compile Include="Assets\OtrasCosas\scrpts\EnemigoAntiguo.cs" />
+    <Compile Include="Assets\Widgets\Source Code\wSingleton.cs" />
+    <Compile Include="Assets\Widgets\Example\Scripts\gui\setting\wSaveChanges.cs" />
+    <Compile Include="Assets\Widgets\Example\Scripts\gui\wMiniGame.cs" />
+    <Compile Include="Assets\Widgets\Source Code\Common\Widget.cs" />
+    <Compile Include="Assets\Widgets\Source Code\database\WidgetDatabase.cs" />
+    <Compile Include="Assets\ProyectoFInal\Scripts\Escena\MenuPrincipal.cs" />
     <Compile Include="Assets\ProyectoFInal\Scripts\Personaje\Bala.cs" />
+    <Compile Include="Assets\ProgramacionIIII\Scripts\SimpleJson\WeatherData.cs" />
+    <Compile Include="Assets\ProgramacionIIII\Scripts\Proyecto Final\Contador.cs" />
     <Compile Include="Assets\ProgramacionIIII\Scripts\Enemigos\Enemigo.cs" />
+    <Compile Include="Assets\OtrasCosas\scrpts\SistemaDialogos\Dialogo.cs" />
+    <Compile Include="Assets\Widgets\Plugins\LeanTween\Framework\LeanAudio.cs" />
     <Compile Include="Assets\ProyectoFInal\Scripts\Guardado\CargaInicio.cs" />
+    <Compile Include="Assets\ProgramacionIIII\Scripts\Enemigos\Freddy.cs" />
+    <Compile Include="Assets\ProgramacionIIII\Scripts\SimpleJson\SimpleJSON.cs" />
+    <Compile Include="Assets\Widgets\Example\Scripts\GenerateCoin.cs" />
+    <Compile Include="Assets\ProyectoFInal\Scripts\Pausa\Pausa.cs" />
+    <Compile Include="Assets\ProgramacionIIII\Scripts\Enemigos\Vidas.cs" />
+    <Compile Include="Assets\ProgramacionIIII\Scripts\SimpleJson\Volume.cs" />
+    <Compile Include="Assets\ProgramacionIIII\Scripts\SimpleJson\WeatherHandler.cs" />
+    <Compile Include="Assets\ProgramacionIIII\Scripts\SimpleJson\SimpleJSONUnity.cs" />
+    <Compile Include="Assets\Widgets\Source Code\Utils\Tween.cs" />
+    <Compile Include="Assets\Widgets\Example\Scripts\gui\setting\wGameSettings.cs" />
+    <Compile Include="Assets\OtrasCosas\scrpts\Moneda.cs" />
     <Compile Include="Assets\OtrasCosas\scrpts\SceneManager\ManejoEscena.cs" />
-    <Compile Include="Assets\ProyectoFInal\SimpleJson\WeatherHandler.cs" />
+    <Compile Include="Assets\ProyectoFInal\Scripts\Guardado\SistemaGuardado.cs" />
+    <Compile Include="Assets\ProyectoFInal\Scripts\Escena\PostProcesing.cs" />
     <Compile Include="Assets\OtrasCosas\scrpts\TerceraPersona\Arbol.cs" />
+    <Compile Include="Assets\ProgramacionIIII\Scripts\Managers\Manager.cs" />
     <Compile Include="Assets\ProgramacionIIII\Scripts\Player\PlayerMove.cs" />
     <Compile Include="Assets\OtrasCosas\scrpts\SistemaDialogos\Conversacion.cs" />
+    <Compile Include="Assets\Widgets\Example\Scripts\AutoType.cs" />
+    <Compile Include="Assets\ProgramacionIIII\Scripts\Proyecto Final\CanvasController.cs" />
+    <Compile Include="Assets\Widgets\Example\Scripts\gui\setting\wAudioSettings.cs" />
     <Compile Include="Assets\ProyectoFInal\Scripts\Guardado\PerfilJugador.cs" />
     <Compile Include="Assets\ProyectoFInal\Scripts\Guardado\Reiniciar.cs" />
     <Compile Include="Assets\ProyectoFInal\Scripts\Sonido\Sonido.cs" />
-    <Compile Include="Assets\ProyectoFInal\SimpleJson\SimpleJSON.cs" />
-    <Compile Include="Assets\ProyectoFInal\SimpleJson\WeatherData.cs" />
-    <Compile Include="Assets\OtrasCosas\scrpts\SceneManager\CambioNivel.cs" />
-    <Compile Include="Assets\ProgramacionIIII\Scripts\UI\TextoUI.cs" />
-    <Compile Include="Assets\ProgramacionIIII\Scripts\GameManager\ManagerGame.cs" />
-    <Compile Include="Assets\ProyectoFInal\Scripts\Sonido\AudioManager.cs" />
-    <Compile Include="Assets\ProyectoFInal\Scripts\Escena\FrameRate.cs" />
-    <Compile Include="Assets\ProyectoFInal\SimpleJson\SimpleJSONUnity.cs" />
-    <Compile Include="Assets\ProyectoFInal\Scripts\Guardado\GameManager.cs" />
-    <Compile Include="Assets\ProgramacionIIII\Scripts\Enemigos\Spawn.cs" />
-    <Compile Include="Assets\ProyectoFInal\Scripts\Personaje\Jugador.cs" />
-    <Compile Include="Assets\ProyectoFInal\Scripts\Escena\MenuPrincipal.cs" />
-    <Compile Include="Assets\OtrasCosas\scrpts\SistemaDialogos\Dialogo.cs" />
-    <Compile Include="Assets\ProgramacionIIII\Scripts\Enemigos\Freddy.cs" />
-    <Compile Include="Assets\ProyectoFInal\Scripts\Pausa\Pausa.cs" />
-    <Compile Include="Assets\ProgramacionIIII\Scripts\Enemigos\Vidas.cs" />
-    <Compile Include="Assets\OtrasCosas\scrpts\Moneda.cs" />
-    <Compile Include="Assets\ProyectoFInal\Scripts\Guardado\SistemaGuardado.cs" />
-    <Compile Include="Assets\ProyectoFInal\Scripts\Escena\PostProcesing.cs" />
+    <Compile Include="Assets\Widgets\Example\Scripts\SettingButton.cs" />
+    <Compile Include="Assets\Widgets\Source Code\WidgetManager.cs" />
     <Compile Include="Assets\ProyectoFInal\Scripts\Enemigo\InstanciarEnemigos.cs" />
+    <Compile Include="Assets\ProgramacionIIII\Scripts\Proyecto Final\JumpCube.cs" />
+    <Compile Include="Assets\Widgets\Plugins\LeanTween\Framework\LeanTween.cs" />
+    <Compile Include="Assets\Widgets\Source Code\Common\IWidget.cs" />
+    <Compile Include="Assets\Widgets\Source Code\Utils\WidgetTween.cs" />
     <Compile Include="Assets\ProyectoFInal\Scripts\Personaje\Disparo.cs" />
+    <Compile Include="Assets\OtrasCosas\scrpts\SceneManager\CambioNivel.cs" />
+    <Compile Include="Assets\ProgramacionIIII\Scripts\Proyecto Final\Obstacule.cs" />
+    <Compile Include="Assets\Widgets\Plugins\LeanTween\Framework\LTDescrOptional.cs" />
+    <Compile Include="Assets\ProgramacionIIII\Scripts\UI\TextoUI.cs" />
+    <Compile Include="Assets\ProgramacionIIII\Scripts\Proyecto Final\ObstaculeSpawn.cs" />
+    <Compile Include="Assets\Widgets\Example\Scripts\gui\setting\wSetting.cs" />
+    <Compile Include="Assets\Widgets\Plugins\LeanTween\Framework\LTDescr.cs" />
+    <Compile Include="Assets\ProgramacionIIII\Scripts\GameManager\ManagerGame.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
+    <None Include="Assets\Widgets\read me.txt" />
     <None Include="Assets\Simple Toon\Shaders\STOutline.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Widgets\Plugins\LeanTween\License.txt" />
+    <None Include="Assets\Widgets\Plugins\LeanTween\ReadMe.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
@@ -123,6 +163,7 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Simple Toon\Shaders\STDefault.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Widgets\Example\UIs\ReadMe.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Simple Toon\Shaders\STFunctions.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
@@ -601,10 +642,6 @@
     </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@205a02cbcb39\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@7dcdc439b230\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
@@ -1095,10 +1132,6 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.1.2f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Splines.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Splines.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.InputSystem.ForUI">
       <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
       <Private>False</Private>
@@ -1115,14 +1148,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Multiplayer.Center.Common">
       <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll</HintPath>
       <Private>False</Private>
@@ -1135,16 +1160,8 @@
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Cinemachine.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Cinemachine.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
@@ -1163,24 +1180,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Mathematics">
-      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
@@ -1191,32 +1200,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.Settings.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    <Reference Include="Unity.Multiplayer.Center.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Splines">
-      <HintPath>Library\ScriptAssemblies\Unity.Splines.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Multiplayer.Center.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
@@ -1227,10 +1220,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Cinemachine">
-      <HintPath>Library\ScriptAssemblies\Unity.Cinemachine.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1239,20 +1228,24 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.InputSystem">
       <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="PlayFab.csproj">
+      <Project>{AA68BDC8-BC08-880B-6B50-FBC88DA5B873}</Project>
+      <Name>PlayFab</Name>
+    </ProjectReference>
+    <ProjectReference Include="PlayFabSDKEditor.csproj">
+      <Project>{349FBE19-0121-B86A-CD3E-3C45E83B8E20}</Project>
+      <Name>PlayFabSDKEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PlayFabEditorExtensions.csproj">
+      <Project>{687A2984-88C7-9394-5011-F9B94D0003CD}</Project>
+      <Name>PlayFabEditorExtensions</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
