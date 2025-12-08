@@ -23,6 +23,6 @@ public class ObstaculeSpawn : MonoBehaviour
 
     private void RandomObstacule()
     {
-        obstaculeRandom = Random.Range(0, 2);
+        obstaculeRandom = Random.Range(0, 3);
     }
 }

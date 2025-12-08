@@ -7,7 +7,6 @@ public class Contador : MonoBehaviour
     [SerializeField] private TMP_Text timerText; // Arrastrar el Text del UI (opcional)
 
     private float tiempoTranscurrido = 0f;
-    private bool corriendo = true;
 
     private void Start()
     {
@@ -23,7 +22,6 @@ public class Contador : MonoBehaviour
 
         string tiempoFormateado = string.Format("{0:00}:{1:00}:{2:000}", minutos, segundos, milisegundos);
 
-        Debug.Log(tiempoFormateado);
 
         timerText.text = tiempoFormateado;
     }
