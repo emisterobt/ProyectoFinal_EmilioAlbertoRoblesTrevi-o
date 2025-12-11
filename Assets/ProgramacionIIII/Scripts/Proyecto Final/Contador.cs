@@ -4,25 +4,26 @@ using UnityEngine.UI;
 
 public class Contador : MonoBehaviour
 {
-    [SerializeField] private TMP_Text timerText; // Arrastrar el Text del UI (opcional)
+    [SerializeField] private TMP_Text timerText;
 
     private float tiempoTranscurrido = 0f;
+    public int segundos = 0;
 
     private void Start()
     {
         tiempoTranscurrido = 0f;
+        segundos = 0;
     }
+
     void Update()
     {
+        // Aumentar tiempo en float
         tiempoTranscurrido += Time.deltaTime;
 
-        int minutos = (int)(tiempoTranscurrido / 60);
-        int segundos = (int)(tiempoTranscurrido % 60);
-        int milisegundos = (int)((tiempoTranscurrido * 1000) % 1000);
+        // Convertir a segundos enteros
+        segundos = Mathf.FloorToInt(tiempoTranscurrido);
 
-        string tiempoFormateado = string.Format("{0:00}:{1:00}:{2:000}", minutos, segundos, milisegundos);
-
-
-        timerText.text = tiempoFormateado;
+        // Mostrar solo los segundos
+        timerText.text = segundos.ToString();
     }
 }

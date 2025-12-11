@@ -5,11 +5,11 @@ using PlayFab.ClientModels;
 using UnityEngine.Events;
 using System.Collections.Generic;
 using UnityEngine.UI;
-using UnityEngine.SocialPlatforms.Impl;
-using UnityEngine.Networking;
+using System.Collections;
 
 public class Manager : MonoBehaviour
 {
+    public static Manager instance;
 
     [Header("Login")]
     [SerializeField] private TMP_InputField loginEmail;
@@ -26,8 +26,26 @@ public class Manager : MonoBehaviour
 
     [Header("UserInfo")]
     [SerializeField] private Image playerPorfilePic;
-    [SerializeField] private TMP_Text playerDisplayName;
+    public TMP_Text playerDisplayName;
     private string userPlayFabId;
+    public string playerName;
+    public string displayName;
+    public string urlImage;
+
+    public float lonManager;
+    public float latManager;
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     void Start()
     {
@@ -40,6 +58,8 @@ public class Manager : MonoBehaviour
         {
             PlayFabSettings.TitleId = "41D86";
         }
+
+        playerName = CA_Username.text;
 
     }
 
@@ -58,12 +78,12 @@ public class Manager : MonoBehaviour
             };
             PlayFabClientAPI.RegisterPlayFabUser(request, OnCreateAccountSuccess, OnError);
         }
-        
+
         else
         {
             Debug.Log("Las Contraseñas no son iguales");
         }
-         
+
     }
 
     public void SetUserAvatar()
@@ -78,7 +98,7 @@ public class Manager : MonoBehaviour
     public void OnSetUserAvatarSuccess(EmptyResponse response)
     {
         Debug.Log("Avatar Configurado");
-        //StartCoroutine(SetProfilePicOnCanvas(CA_AvatarUrl.text));
+        StartCoroutine(SetProfilePicOnCanvas(CA_AvatarUrl.text));
     }
 
     public void OnCreateAccountSuccess(RegisterPlayFabUserResult result)
@@ -104,13 +124,19 @@ public class Manager : MonoBehaviour
         Debug.Log("Has sido Logeado");
         userPlayFabId = result.PlayFabId;
         onLoginSuccess?.Invoke();
+        
     }
 
     public void GetPlayerProfile()
     {
         GetPlayerProfileRequest request = new GetPlayerProfileRequest
         {
-            PlayFabId = userPlayFabId
+            PlayFabId = userPlayFabId,
+            ProfileConstraints = new PlayerProfileViewConstraints
+            {
+                ShowAvatarUrl = true,
+                ShowDisplayName = true,
+            }
         };
         PlayFabClientAPI.GetPlayerProfile(request, OnGetAvatarUrlSuccess, OnError);
 
@@ -118,8 +144,11 @@ public class Manager : MonoBehaviour
 
     public void OnGetAvatarUrlSuccess(GetPlayerProfileResult result)
     {
-        playerDisplayName.text = result.PlayerProfile.DisplayName;
-        //StartCoroutine(SetProfilePicOnCanvas(result.PlayerProfile.AvatarUrl));
+
+        displayName = result.PlayerProfile.DisplayName;
+        urlImage = result.PlayerProfile.AvatarUrl;
+        Debug.Log(result.PlayerProfile.AvatarUrl);
+       // StartCoroutine(SetProfilePicOnCanvas(result.PlayerProfile.AvatarUrl));
     }
 
     public void OnError(PlayFabError error)
@@ -142,10 +171,10 @@ public class Manager : MonoBehaviour
                     StatisticName = "Score",
                 Value = score
                 },
-                
+
             }
         };
-        PlayFabClientAPI.UpdatePlayerStatistics(request, OnPlayerStatsUpdateSuccess, OnError);    
+        PlayFabClientAPI.UpdatePlayerStatistics(request, OnPlayerStatsUpdateSuccess, OnError);
     }
 
     public void OnPlayerStatsUpdateSuccess(UpdatePlayerStatisticsResult result)
@@ -153,9 +182,10 @@ public class Manager : MonoBehaviour
         Debug.Log("Tu Score se actualizó correctamente");
     }
 
-    //private IEnumerator SetProfilePicOnCanvas(string url)
-    //{
-    //    UnityWebRequestTexture
-    //}
-    
+    private IEnumerator SetProfilePicOnCanvas(string url)
+    {
+        yield return new WaitForSeconds(3);
+
+    }
+
 }

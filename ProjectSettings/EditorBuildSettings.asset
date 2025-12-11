@@ -32,6 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/ProgramacionIIII/Escenas/CreareAccount.unity
     guid: 8bcd68baec054be4f8af99329058201a
+  - enabled: 1
+    path: Assets/ProgramacionIIII/Escenas/PrincipalMenu.unity
+    guid: f825732864b343747989803d437c7668
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
   m_UseUCBPForAssetBundles: 0

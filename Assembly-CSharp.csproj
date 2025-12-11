@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FD2D6F99-70CA-2041-4185-06D13F62A1FD}</ProjectGuid>
+    <ProjectGuid>{369753C4-7A64-4ACF-4472-4C4A2CB0DD02}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -81,11 +81,13 @@
     <Compile Include="Assets\OtrasCosas\scrpts\SistemaDialogos\Dialogo.cs" />
     <Compile Include="Assets\ProyectoFInal\Scripts\Guardado\CargaInicio.cs" />
     <Compile Include="Assets\ProgramacionIIII\Scripts\Enemigos\Freddy.cs" />
+    <Compile Include="Assets\ProgramacionIIII\Scripts\Proyecto Final\GetBasicInfo.cs" />
     <Compile Include="Assets\ProgramacionIIII\Scripts\SimpleJson\SimpleJSON.cs" />
     <Compile Include="Assets\ProyectoFInal\Scripts\Pausa\Pausa.cs" />
     <Compile Include="Assets\ProgramacionIIII\Scripts\Enemigos\Vidas.cs" />
     <Compile Include="Assets\ProgramacionIIII\Scripts\SimpleJson\Volume.cs" />
     <Compile Include="Assets\ProgramacionIIII\Scripts\SimpleJson\WeatherHandler.cs" />
+    <Compile Include="Assets\ProgramacionIIII\Scripts\Proyecto Final\IntroduceLatLong.cs" />
     <Compile Include="Assets\ProgramacionIIII\Scripts\SimpleJson\SimpleJSONUnity.cs" />
     <Compile Include="Assets\OtrasCosas\scrpts\Moneda.cs" />
     <Compile Include="Assets\OtrasCosas\scrpts\SceneManager\ManejoEscena.cs" />
@@ -1202,15 +1204,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PlayFab.csproj">
-      <Project>{F7CFC85C-0211-FD43-8BAF-C80EDD929A84}</Project>
+      <Project>{AA68BDC8-BC08-880B-6B50-FBC88DA5B873}</Project>
       <Name>PlayFab</Name>
     </ProjectReference>
     <ProjectReference Include="PlayFabSDKEditor.csproj">
-      <Project>{0EF2423D-B76D-3F97-938F-9A42598C1CC5}</Project>
+      <Project>{349FBE19-0121-B86A-CD3E-3C45E83B8E20}</Project>
       <Name>PlayFabSDKEditor</Name>
     </ProjectReference>
     <ProjectReference Include="PlayFabEditorExtensions.csproj">
-      <Project>{DBDD52DF-C55E-3676-F623-FFFF7F9D7C99}</Project>
+      <Project>{687A2984-88C7-9394-5011-F9B94D0003CD}</Project>
       <Name>PlayFabEditorExtensions</Name>
     </ProjectReference>
   </ItemGroup>

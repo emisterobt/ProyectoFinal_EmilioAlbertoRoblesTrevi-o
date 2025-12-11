@@ -14,7 +14,8 @@ public class WeatherHandler : MonoBehaviour
     private string jsonRAW;
     void Start()
     {
-
+        lon = Manager.instance.lonManager;
+        lat = Manager.instance.latManager;
         url = $"https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude=minutely,hourly,daily&appid={apiKey}&units=metric";
         StartCoroutine(UpdateWeather());
     }
