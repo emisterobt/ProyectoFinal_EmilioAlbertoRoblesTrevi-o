@@ -28,4 +28,10 @@ public class IntroduceLatLong : MonoBehaviour
         Debug.Log(Manager.instance.lonManager + " " + Manager.instance.latManager);
         Game();
     }
+
+    public void Salir()
+    {
+        Application.Quit();
+
+    }
 }

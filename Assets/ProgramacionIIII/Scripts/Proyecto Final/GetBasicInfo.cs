@@ -19,29 +19,33 @@ public class GetBasicInfo : MonoBehaviour
     {
         Manager.instance.GetPlayerProfile();
         yield return new WaitForSeconds(3);
-        StartCoroutine(ShowImage());
+        StartCoroutine(ShowImage(Manager.instance.urlImage, perfil));
         displayName.text = Manager.instance.displayName;
 
     }
 
-    IEnumerator ShowImage()
+    IEnumerator ShowImage(string url, Image targetImage)
     {
-        UnityWebRequest req = UnityWebRequestTexture.GetTexture(Manager.instance.urlImage);
-
-        yield return req.SendWebRequest();
-
-
-
-        if (req.result != UnityWebRequest.Result.Success)
+        using (UnityWebRequest uwr = UnityWebRequestTexture.GetTexture(url))
         {
-            Debug.LogError(req.error);
-            yield break;
+            yield return uwr.SendWebRequest();
+
+#if UNITY_2020_1_OR_NEWER
+            if (uwr.result != UnityWebRequest.Result.Success)
+#else
+            if (uwr.isNetworkError || uwr.isHttpError)
+#endif
+            {
+                Debug.Log("Error downloading avatar: " + uwr.error);
+                yield break;
+            }
+
+            Texture2D tex = DownloadHandlerTexture.GetContent(uwr);
+            if (tex != null)
+            {
+                Sprite sprite = Sprite.Create(tex, new Rect(0, 0, tex.width, tex.height), new Vector2(0.5f, 0.5f));
+                targetImage.sprite = sprite;
+            }
         }
-
-        Texture2D tex = DownloadHandlerTexture.GetContent(req);
-        Sprite sprite = Sprite.Create(tex, new Rect(0, 0, tex.width, tex.height), Vector2.one * 0.5f);
-        perfil.sprite = sprite;
-
-
     }
 }

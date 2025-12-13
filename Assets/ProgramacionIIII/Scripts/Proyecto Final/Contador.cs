@@ -17,13 +17,8 @@ public class Contador : MonoBehaviour
 
     void Update()
     {
-        // Aumentar tiempo en float
         tiempoTranscurrido += Time.deltaTime;
-
-        // Convertir a segundos enteros
         segundos = Mathf.FloorToInt(tiempoTranscurrido);
-
-        // Mostrar solo los segundos
         timerText.text = segundos.ToString();
     }
 }

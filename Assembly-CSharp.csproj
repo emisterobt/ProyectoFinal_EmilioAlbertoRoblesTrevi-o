@@ -101,6 +101,7 @@
     <Compile Include="Assets\ProyectoFInal\Scripts\Guardado\PerfilJugador.cs" />
     <Compile Include="Assets\ProyectoFInal\Scripts\Guardado\Reiniciar.cs" />
     <Compile Include="Assets\ProyectoFInal\Scripts\Sonido\Sonido.cs" />
+    <Compile Include="Assets\ProgramacionIIII\Scripts\Proyecto Final\ScoreBoard.cs" />
     <Compile Include="Assets\ProyectoFInal\Scripts\Enemigo\InstanciarEnemigos.cs" />
     <Compile Include="Assets\ProgramacionIIII\Scripts\Proyecto Final\JumpCube.cs" />
     <Compile Include="Assets\ProyectoFInal\Scripts\Personaje\Disparo.cs" />

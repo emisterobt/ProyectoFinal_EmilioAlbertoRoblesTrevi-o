@@ -49,10 +49,10 @@ public class Manager : MonoBehaviour
 
     void Start()
     {
-        if (string.IsNullOrEmpty(PlayFabSettings.DeveloperSecretKey))
-        {
-            PlayFabSettings.DeveloperSecretKey = "IRD6RCAP3TZR8RA3M975G5DGHH35SCHQW4Q4URWD96QPPBYWG6";
-        }
+        //if (string.IsNullOrEmpty(PlayFabSettings.DeveloperSecretKey))
+        //{
+        //    PlayFabSettings.DeveloperSecretKey = "IRD6RCAP3TZR8RA3M975G5DGHH35SCHQW4Q4URWD96QPPBYWG6";
+        //}
 
         if (string.IsNullOrEmpty(PlayFabSettings.TitleId))
         {
@@ -66,8 +66,7 @@ public class Manager : MonoBehaviour
     // Update is called once per frame
     public void CreateAccount()
     {
-        if (CA_Password == CA_ConfirmPassword)
-        {
+        
             RegisterPlayFabUserRequest request = new RegisterPlayFabUserRequest
             {
                 Email = CA_Email.text,
@@ -77,12 +76,7 @@ public class Manager : MonoBehaviour
                 RequireBothUsernameAndEmail = true
             };
             PlayFabClientAPI.RegisterPlayFabUser(request, OnCreateAccountSuccess, OnError);
-        }
-
-        else
-        {
-            Debug.Log("Las Contraseñas no son iguales");
-        }
+        
 
     }
 
